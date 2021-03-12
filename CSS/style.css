@@ -36,6 +36,7 @@ align-items: stretch;
 nav{
     background: url('../pics/bg-black.jpg');
     flex-basis: 20vw;
+    order: 3;
 }
 nav ul{
     margin: 0;
@@ -58,9 +59,11 @@ nav a:hover{
 main{
     flex-basis: 60vw;
     margin: 0 20px;
+    order: 2;
 }
 aside{
     flex-basis: 20vw;
+    order: 1;
 }
 aside ul{
     list-style: none;
@@ -110,6 +113,7 @@ aside a:hover{
     display: flex;
     margin: 30px 0;
     flex-flow: row wrap;
+    justify-content: flex-start;
 }
 .pagination .page{
     display: inline-block;
@@ -118,6 +122,7 @@ aside a:hover{
     background: white;
     border: 1px solid rgba( 0,0,0,.4);
     border-radius: 4px;
+    margin: 0 5px 5px 0;
 }
 .pagination .page:hover ,
 .pagination span.page{
